@@ -5,7 +5,7 @@ on:
 jobs:
   test:
     name: Run tests
-    runs-on: linux
+    runs-on: self-hosted
     steps:
     - run: echo Hello world!
       
