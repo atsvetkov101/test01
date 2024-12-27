@@ -5,7 +5,7 @@ on:
 jobs:
   test:
     name: Run tests
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
     - run: echo Hello world!
       
