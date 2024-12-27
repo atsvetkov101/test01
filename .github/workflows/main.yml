@@ -5,7 +5,7 @@ on:
 jobs:
   test:
     name: Run tests
-    runs-on: [self-hosted, "${{ inputs.chosen-os }}"]
+    runs-on: linux
     steps:
     - run: echo Hello world!
       
