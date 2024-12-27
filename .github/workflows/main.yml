@@ -1,0 +1,11 @@
+on:
+  push:
+    branches:
+    - main
+jobs:
+  test:
+    name: Run tests
+    runs-on: [self-hosted, "${{ inputs.chosen-os }}"]
+    steps:
+    - run: echo Hello world!
+      
